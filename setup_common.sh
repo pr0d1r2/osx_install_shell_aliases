@@ -1,11 +1,7 @@
 #!/bin/bash
 
 D_R=`cd \`dirname $0\` ; pwd -P`
-
-function echorun() {
-  echo "$@"
-  $@ || return $?
-}
+source $D_R/shell_aliases.d/run.sh || return $?
 
 for COMMAND in \
   dock_autohide_on \
@@ -24,5 +20,5 @@ for COMMAND in \
 
 do
   source $D_R/shell_aliases.d/$COMMAND.sh || return $?
-  echorun $COMMAND
+  run $COMMAND
 done

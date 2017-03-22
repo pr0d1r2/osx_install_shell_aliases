@@ -1,11 +1,7 @@
 #!/bin/bash
 
 D_R=`cd \`dirname $0\` ; pwd -P`
-
-function echorun() {
-  echo "$@"
-  $@ || return $?
-}
+source $D_R/shell_aliases.d/run.sh || return $?
 
 sh $D_R/setup_common.sh || exit $?
 
@@ -15,5 +11,5 @@ for COMMAND in \
 
 do
   source $D_R/shell_aliases.d/$COMMAND.sh || exit $?
-  echorun $COMMAND
+  run $COMMAND
 done
