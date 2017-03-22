@@ -1,9 +1,9 @@
 #!/bin/bash
 
 D_R=`cd \`dirname $0\` ; pwd -P`
-source $D_R/shell_aliases.d/run.sh || exit $?
+source $D_R/shell_aliases.d/run_commands.sh || exit $?
 
-for COMMAND in \
+run_commands \
   dock_autohide_on \
   dock_restart \
   menubar_autohide_on \
@@ -17,8 +17,4 @@ for COMMAND in \
   install_numbers \
   install_keynote \
   update_system \
-
-do
-  source $D_R/shell_aliases.d/$COMMAND.sh || exit $?
-  run $COMMAND || exit $?
-done
+  || return $?

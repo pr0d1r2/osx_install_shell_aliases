@@ -1,4 +1,0 @@
-function run() {
-  echo "$@"
-  $@ || return $?
-}
