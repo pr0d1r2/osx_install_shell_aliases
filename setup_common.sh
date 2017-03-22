@@ -27,5 +27,6 @@ run_commands \
   install_disk_drill_media_recovery \
   install_mactracker \
   install_steam \
+  install_audio_hijack \
   update_system \
   || return $?
