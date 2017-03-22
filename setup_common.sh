@@ -17,6 +17,7 @@ run_commands \
   install_airfoil \
   install_omnifocus \
   install_google_chrome \
+  install_torbrowser \
   install_lastpass \
   install_slack \
   install_rubbernet \
