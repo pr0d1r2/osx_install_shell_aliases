@@ -14,6 +14,7 @@ run_commands \
   mas_signin \
   install_1password \
   install_lastpass \
+  install_slack \
   install_pages \
   install_numbers \
   install_keynote \
