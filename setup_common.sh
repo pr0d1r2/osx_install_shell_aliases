@@ -15,6 +15,7 @@ run_commands \
   install_1password \
   install_spotify \
   install_airfoil \
+  install_omnifocus \
   install_google_chrome \
   install_lastpass \
   install_slack \
