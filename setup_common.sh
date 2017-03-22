@@ -24,6 +24,7 @@ run_commands \
   install_lastpass \
   install_slack \
   install_zoomus \
+  install_skype \
   install_rubbernet \
   install_wifi_explorer \
   install_pages \
