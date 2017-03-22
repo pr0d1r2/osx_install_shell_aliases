@@ -21,6 +21,7 @@ run_commands \
   install_numbers \
   install_keynote \
   install_pixelmator \
+  install_daisy_disk \
   install_disk_drill_media_recovery \
   update_system \
   || return $?
