@@ -16,6 +16,7 @@ run_commands \
   install_lastpass \
   install_slack \
   install_rubbernet \
+  install_wifi_explorer \
   install_pages \
   install_numbers \
   install_keynote \
