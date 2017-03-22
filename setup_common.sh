@@ -14,6 +14,8 @@ for COMMAND in \
   ui_server_restart \
   install_homebrew \
   disable_homebrew_analytics \
+  install_mas \
+  mas_signin \
   update_system \
 
 do
