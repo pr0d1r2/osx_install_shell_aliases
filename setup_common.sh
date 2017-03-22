@@ -15,6 +15,8 @@ function echorun() {
 for SCRIPT in \
   dock_autohide_on \
   dock_restart \
+  menubar_autohide_on \
+  ui_server_restart \
 
 do
   echorun $SCRIPT
