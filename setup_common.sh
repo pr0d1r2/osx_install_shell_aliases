@@ -23,6 +23,7 @@ run_commands \
   install_torbrowser \
   install_lastpass \
   install_slack \
+  install_zoomus \
   install_rubbernet \
   install_wifi_explorer \
   install_pages \
