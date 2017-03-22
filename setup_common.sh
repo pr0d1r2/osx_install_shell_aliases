@@ -13,6 +13,7 @@ run_commands \
   install_mas \
   mas_signin \
   install_spotify \
+  install_google_chrome \
   install_1password \
   install_lastpass \
   install_slack \
