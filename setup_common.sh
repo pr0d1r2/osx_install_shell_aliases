@@ -13,6 +13,7 @@ for COMMAND in \
   menubar_autohide_on \
   ui_server_restart \
   install_homebrew \
+  disable_homebrew_analytics \
   update_system \
 
 do
