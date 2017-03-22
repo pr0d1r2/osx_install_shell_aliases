@@ -16,6 +16,7 @@ run_commands \
   install_spotify \
   install_airfoil \
   install_omnifocus \
+  install_iterm \
   install_google_chrome \
   install_torbrowser \
   install_lastpass \
