@@ -16,6 +16,9 @@ for COMMAND in \
   disable_homebrew_analytics \
   install_mas \
   mas_signin \
+  install_pages \
+  install_numbers \
+  install_keynote \
   update_system \
 
 do
