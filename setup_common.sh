@@ -13,6 +13,7 @@ run_commands \
   install_mas \
   mas_signin \
   install_1password \
+  install_lastpass \
   install_pages \
   install_numbers \
   install_keynote \
