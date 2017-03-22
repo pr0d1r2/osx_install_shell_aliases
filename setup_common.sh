@@ -19,6 +19,7 @@ run_commands \
   install_iterm \
   install_macvim \
   install_google_chrome \
+  install_grammarly \
   install_torbrowser \
   install_lastpass \
   install_slack \
