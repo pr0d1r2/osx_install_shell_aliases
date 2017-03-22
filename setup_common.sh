@@ -20,5 +20,5 @@ for COMMAND in \
 
 do
   source $D_R/shell_aliases.d/$COMMAND.sh || exit $?
-  run $COMMAND
+  run $COMMAND || exit $?
 done
