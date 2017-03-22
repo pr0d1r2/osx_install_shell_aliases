@@ -12,6 +12,7 @@ for COMMAND in \
   dock_restart \
   menubar_autohide_on \
   ui_server_restart \
+  update_system \
 
 do
   source $D_R/shell_aliases.d/$COMMAND.sh || return $?
