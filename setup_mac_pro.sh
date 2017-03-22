@@ -1,7 +1,7 @@
 #!/bin/bash
 
 D_R=`cd \`dirname $0\` ; pwd -P`
-source $D_R/shell_aliases.d/run.sh || return $?
+source $D_R/shell_aliases.d/run.sh || exit $?
 
 sh $D_R/setup_common.sh || exit $?
 

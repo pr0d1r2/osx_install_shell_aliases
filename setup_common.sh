@@ -1,7 +1,7 @@
 #!/bin/bash
 
 D_R=`cd \`dirname $0\` ; pwd -P`
-source $D_R/shell_aliases.d/run.sh || return $?
+source $D_R/shell_aliases.d/run.sh || exit $?
 
 for COMMAND in \
   dock_autohide_on \
@@ -19,6 +19,6 @@ for COMMAND in \
   update_system \
 
 do
-  source $D_R/shell_aliases.d/$COMMAND.sh || return $?
+  source $D_R/shell_aliases.d/$COMMAND.sh || exit $?
   run $COMMAND
 done
