@@ -12,6 +12,7 @@ run_commands \
   disable_homebrew_analytics \
   install_mas \
   mas_signin \
+  install_spotify \
   install_1password \
   install_lastpass \
   install_slack \
