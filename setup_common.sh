@@ -12,6 +12,7 @@ for COMMAND in \
   dock_restart \
   menubar_autohide_on \
   ui_server_restart \
+  install_homebrew \
   update_system \
 
 do
