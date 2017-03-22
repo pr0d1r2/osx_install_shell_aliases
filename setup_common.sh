@@ -12,10 +12,10 @@ run_commands \
   disable_homebrew_analytics \
   install_mas \
   mas_signin \
+  install_1password \
   install_spotify \
   install_airfoil \
   install_google_chrome \
-  install_1password \
   install_lastpass \
   install_slack \
   install_rubbernet \
