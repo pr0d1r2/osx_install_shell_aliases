@@ -2,11 +2,6 @@
 
 D_R=`cd \`dirname $0\` ; pwd -P`
 
-for FILE in `find $D_R/shell_aliases.d -type f -name "*.sh"`
-do
-  source $FILE || return $?
-done
-
 function echorun() {
   echo "$@"
   $@ || return $?
@@ -19,5 +14,6 @@ for COMMAND in \
   ui_server_restart \
 
 do
+  source $D_R/shell_aliases.d/$COMMAND.sh || return $?
   echorun $COMMAND
 done
