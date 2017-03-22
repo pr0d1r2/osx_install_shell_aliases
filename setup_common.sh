@@ -19,5 +19,6 @@ run_commands \
   install_pages \
   install_numbers \
   install_keynote \
+  install_pixelmator \
   update_system \
   || return $?
