@@ -13,6 +13,7 @@ run_commands \
   install_mas \
   mas_signin \
   install_1password \
+  install_tunnelblick \
   install_spotify \
   install_airfoil \
   install_omnifocus \
