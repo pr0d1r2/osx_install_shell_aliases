@@ -39,6 +39,7 @@ run_commands \
   install_audio_hijack \
   install_hammerspoon \
   install_shell_aliases \
+  install_zsh \
   install_rg \
   update_system \
   || return $?
