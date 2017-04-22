@@ -37,5 +37,6 @@ run_commands \
   install_mactracker \
   install_steam \
   install_audio_hijack \
+  install_hammerspoon \
   update_system \
   || return $?
