@@ -1,4 +1,5 @@
 function run() {
+  source $D_R/shell_aliases.d/$1.sh || return $?
   echo "$@"
   $@ || return $?
 }
@@ -17,7 +18,6 @@ function run_once() {
 function run_commands() {
   for run_commands_COMMAND in $@
   do
-    source $D_R/shell_aliases.d/$run_commands_COMMAND.sh || exit $?
     run_once $run_commands_COMMAND || exit $?
   done
 }
