@@ -1,7 +1,7 @@
 function run() {
   source $D_R/shell_aliases.d/$1.sh || return $?
-  echo "$@"
-  $@ || return $?
+  echo "$1"
+  $1 || return $?
 }
 
 function run_once_marker() {
