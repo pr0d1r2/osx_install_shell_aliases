@@ -38,5 +38,6 @@ run_commands \
   install_steam \
   install_audio_hijack \
   install_hammerspoon \
+  install_rg \
   update_system \
   || return $?
