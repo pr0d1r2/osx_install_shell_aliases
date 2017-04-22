@@ -40,6 +40,7 @@ run_commands \
   install_hammerspoon \
   install_shell_aliases \
   install_zsh \
+  install_dotfiles \
   install_wget \
   install_rg \
   update_system \
