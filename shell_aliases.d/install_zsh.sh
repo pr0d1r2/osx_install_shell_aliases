@@ -6,7 +6,7 @@ function install_zsh() {
     cd  $HOME/.oh-my-zsh-custom || return $?
     git pull || return $?
   fi
-  ln -s $HOME/.oh-my-zsh-custom/zshrc $HOME/.zshrc || return $?
+  ln -sf $HOME/.oh-my-zsh-custom/zshrc $HOME/.zshrc || return $?
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" || return $?
   echo /usr/local/bin/zsh | sudo tee -a /etc/shells || return $?
   chsh -s /usr/local/bin/zsh || return $?
