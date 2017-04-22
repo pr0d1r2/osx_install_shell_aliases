@@ -1,3 +1,5 @@
+MARKER_DIR="$HOME/.osx_install_shell_aliases"
+
 function run() {
   source $D_R/shell_aliases.d/$1.sh || return $?
   echo "$1"
@@ -5,13 +7,20 @@ function run() {
 }
 
 function run_once_marker() {
-  echo $HOME/.osx_install_shell_aliases/$1.done
+  echo $MARKER_DIR/$1.done
+}
+
+function run_once_mark() {
+  if [ ! -d $MARKER_DIR ]; then
+    mkdir -p $MARKER_DIR || return $?
+  fi
+  touch `run_once_marker $1` || return $?
 }
 
 function run_once() {
   if [ ! -e `run_once_marker $1` ]; then
     run $1 || return $?
-    touch `run_once_marker $1`
+    run_once_mark $1 || return $?
   fi
 }
 
