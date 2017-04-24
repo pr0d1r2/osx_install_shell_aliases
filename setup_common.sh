@@ -4,6 +4,7 @@ D_R=`cd \`dirname $0\` ; pwd -P`
 source $D_R/shell_aliases.d/run_commands.sh || exit $?
 
 run_commands \
+  trackpad_unnatural_scroll_direction \
   dock_autohide_on \
   dock_restart \
   menubar_autohide_on \
