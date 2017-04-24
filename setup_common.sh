@@ -47,6 +47,7 @@ run_commands \
   install_dotfiles \
   install_wget \
   install_rg \
+  install_java \
   sync_github_repositories \
   update_system \
   || return $?
