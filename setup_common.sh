@@ -19,6 +19,7 @@ run_commands \
   install_omnifocus \
   install_iterm \
   install_macvim \
+  install_janus \
   install_google_chrome \
   install_grammarly \
   install_torbrowser \
