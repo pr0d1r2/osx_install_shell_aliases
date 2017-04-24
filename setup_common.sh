@@ -25,6 +25,7 @@ run_commands \
   install_grammarly \
   install_torbrowser \
   install_lastpass \
+  install_alfred \
   install_slack \
   install_zoomus \
   install_skype \
