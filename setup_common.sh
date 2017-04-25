@@ -48,6 +48,7 @@ run_commands \
   install_wget \
   install_rg \
   install_java \
+  install_htop \
   sync_github_repositories \
   update_system \
   || return $?
