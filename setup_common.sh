@@ -23,6 +23,7 @@ run_commands \
   install_janus \
   install_google_chrome \
   install_grammarly \
+  install_tor \
   install_torbrowser \
   install_lastpass \
   install_alfred \
