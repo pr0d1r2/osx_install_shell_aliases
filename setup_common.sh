@@ -26,6 +26,7 @@ run_commands \
   install_tor \
   install_torsocks \
   install_torbrowser \
+  install_youtube_dl \
   install_lastpass \
   install_alfred \
   install_slack \
