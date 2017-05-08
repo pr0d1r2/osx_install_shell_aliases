@@ -25,6 +25,7 @@ run_commands \
   install_grammarly \
   install_tor \
   install_torsocks \
+  install_dante \
   install_torbrowser \
   install_youtube_dl \
   install_lastpass \
