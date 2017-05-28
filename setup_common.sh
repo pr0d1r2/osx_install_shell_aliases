@@ -55,6 +55,7 @@ run_commands \
   install_java \
   install_htop \
   install_libreoffice \
+  install_font_microsoft \
   sync_github_repositories \
   update_system \
   || return $?
