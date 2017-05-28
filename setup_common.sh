@@ -54,6 +54,7 @@ run_commands \
   install_rg \
   install_java \
   install_htop \
+  install_libreoffice \
   sync_github_repositories \
   update_system \
   || return $?
