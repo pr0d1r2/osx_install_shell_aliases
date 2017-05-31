@@ -34,6 +34,7 @@ run_commands \
   install_slack \
   install_zoomus \
   install_skype \
+  install_terminal_notifier \
   install_rubbernet \
   install_wifi_explorer \
   install_pages \
