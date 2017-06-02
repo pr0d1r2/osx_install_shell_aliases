@@ -13,6 +13,7 @@ run_commands \
   disable_homebrew_analytics \
   install_mas \
   mas_signin \
+  install_caffeine \
   install_1password \
   install_pwgen \
   install_tunnelblick \
