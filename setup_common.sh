@@ -24,6 +24,7 @@ run_commands \
   install_macvim \
   install_janus \
   install_google_chrome \
+  install_firefox \
   install_grammarly \
   install_tor \
   install_torsocks \
