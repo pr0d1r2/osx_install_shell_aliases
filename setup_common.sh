@@ -55,6 +55,7 @@ run_commands \
   install_dotfiles \
   install_wget \
   install_rg \
+  install_ag \
   install_java \
   install_htop \
   install_libreoffice \
