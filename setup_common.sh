@@ -23,6 +23,7 @@ run_commands \
   install_iterm \
   install_macvim \
   install_janus \
+  install_shellcheck \
   install_google_chrome \
   install_firefox \
   install_grammarly \
