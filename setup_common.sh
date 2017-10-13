@@ -59,6 +59,7 @@ run_commands \
   install_ag \
   install_java \
   install_htop \
+  install_p7zip \
   install_libreoffice \
   install_font_microsoft \
   sync_github_repositories \
