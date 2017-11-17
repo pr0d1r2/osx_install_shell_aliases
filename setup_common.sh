@@ -15,6 +15,7 @@ run_commands \
   mas_signin \
   install_caffeine \
   install_1password \
+  install_git_secrets \
   install_pwgen \
   install_tunnelblick \
   install_spotify \
