@@ -15,6 +15,7 @@ run_commands \
   mas_signin \
   install_caffeine \
   install_1password \
+  install_git_secrets \
   install_pwgen \
   install_tunnelblick \
   install_spotify \
@@ -23,6 +24,7 @@ run_commands \
   install_iterm \
   install_macvim \
   install_janus \
+  install_shellcheck \
   install_google_chrome \
   install_firefox \
   install_grammarly \
@@ -59,6 +61,8 @@ run_commands \
   install_rpl \
   install_java \
   install_htop \
+  install_pstree \
+  install_p7zip \
   install_libreoffice \
   install_font_microsoft \
   sync_github_repositories \
