@@ -65,6 +65,7 @@ run_commands \
   install_p7zip \
   install_libreoffice \
   install_font_microsoft \
+  install_logic_pro_x \
   sync_github_repositories \
   update_system \
   || return $?
