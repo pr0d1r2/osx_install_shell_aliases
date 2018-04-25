@@ -55,6 +55,7 @@ run_commands \
   install_shell_aliases \
   install_zsh \
   install_rbenv \
+  install_rbenv_ruby \
   install_dotfiles \
   install_wget \
   install_rg \
