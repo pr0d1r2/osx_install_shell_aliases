@@ -15,6 +15,7 @@ run_commands \
   install_mas \
   mas_signin \
   install_caffeine \
+  install_commandq \
   install_1password \
   install_git_secrets \
   install_pwgen \
