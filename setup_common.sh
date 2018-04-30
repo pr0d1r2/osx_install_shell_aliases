@@ -26,6 +26,7 @@ run_commands \
   install_macvim \
   install_janus \
   install_shellcheck \
+  install_google_chrome_1password_support \
   install_google_chrome \
   install_firefox \
   install_grammarly \
