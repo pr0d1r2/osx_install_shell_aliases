@@ -24,6 +24,8 @@ run_commands \
   install_airfoil \
   install_omnifocus \
   install_iterm \
+  install_openssh \
+  install_rsync \
   install_macvim \
   install_janus \
   install_shellcheck \
