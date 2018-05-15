@@ -70,6 +70,7 @@ run_commands \
   install_htop \
   install_pstree \
   install_p7zip \
+  install_aria2 \
   install_libreoffice \
   install_font_microsoft \
   install_logic_pro_x \
