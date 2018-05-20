@@ -38,6 +38,7 @@ run_commands \
   install_dante \
   install_torbrowser \
   install_youtube_dl \
+  install_ffmpeg \
   install_lastpass \
   install_alfred \
   install_slack \
