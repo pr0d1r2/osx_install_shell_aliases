@@ -6,6 +6,7 @@ source $D_R/shell_aliases.d/run_commands.sh || exit $?
 run_commands \
   trackpad_unnatural_scroll_direction \
   dock_autohide_on \
+  dock_only_show_active_apps \
   dock_restart \
   menubar_autohide_on \
   ui_server_restart \
