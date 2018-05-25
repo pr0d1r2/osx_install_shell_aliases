@@ -1,12 +1,19 @@
 function macos_autostart_app() {
   local macos_autostart_app_HIDE
   macos_autostart_app_HIDE=$2
-  if [ -z "$macos_autostart_app_HIDE" ]; then
-    macos_autostart_app_HIDE=1
-  fi
-  defaults read loginwindow AutoLaunchedApplicationDictionary | \
-    grep -q /Applications/$1.app || \
-  defaults write loginwindow AutoLaunchedApplicationDictionary \
-    -array-add "{ \"Path\" = \"/Applications/$1.app\"; \"Hide\" = $macos_autostart_app_HIDE; }"
+
+  case $2 in
+    false | 0)
+      macos_autostart_app_HIDE=false
+      ;;
+    *)
+      macos_autostart_app_HIDE=true
+      ;;
+  esac
+
+  osascript -e 'tell application "System Events" to get the name of every login item' | \
+    egrep -q "^$1| $1, |^$1$" || \
+  osascript -e "tell application \"System Events\" to make login item at end with properties {path:\"/Applications/$1.app\", hidden:$macos_autostart_app_HIDE}"
+
   return $?
 }
