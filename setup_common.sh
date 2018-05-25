@@ -44,6 +44,7 @@ run_commands \
   install_alfred \
   install_slack \
   install_zoomus \
+  install_whatsapp \
   install_skype \
   install_terminal_notifier \
   install_rubbernet \
