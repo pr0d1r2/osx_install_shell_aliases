@@ -12,6 +12,7 @@ run_commands \
   menubar_autohide_on \
   menubar_clock_with_date \
   menubar_show_battery_percent \
+  menubar_extras_bluetooth \
   ui_server_restart \
   diasble_bluetooth_hid_autoseek \
   install_homebrew \
