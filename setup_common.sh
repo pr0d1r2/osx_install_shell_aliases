@@ -10,6 +10,7 @@ run_commands \
   dock_only_show_active_apps \
   dock_restart \
   menubar_autohide_on \
+  menubar_clock_with_date \
   ui_server_restart \
   install_homebrew \
   disable_homebrew_analytics \
