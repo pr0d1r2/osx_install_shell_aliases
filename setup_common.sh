@@ -12,6 +12,7 @@ run_commands \
   menubar_autohide_on \
   menubar_clock_with_date \
   ui_server_restart \
+  diasble_bluetooth_hid_autoseek \
   install_homebrew \
   disable_homebrew_analytics \
   install_homebrew_caskroom \
