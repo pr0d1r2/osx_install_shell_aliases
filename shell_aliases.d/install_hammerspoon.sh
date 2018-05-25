@@ -6,5 +6,6 @@ function install_hammerspoon() {
     git pull || return $?
   fi
   brew cask install hammerspoon || return $?
+  macos_autostart_app Hammerspoon 1
   open /Applications/Hammerspoon.app || return $?
 }
