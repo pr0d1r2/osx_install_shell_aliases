@@ -22,6 +22,7 @@ run_commands \
   install_mas \
   mas_signin \
   install_screen \
+  install_parallel \
   install_git \
   install_caffeine \
   install_commandq \
