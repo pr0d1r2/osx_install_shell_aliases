@@ -21,6 +21,7 @@ run_commands \
   install_homebrew_caskroom \
   install_mas \
   mas_signin \
+  install_screen \
   install_git \
   install_caffeine \
   install_commandq \
