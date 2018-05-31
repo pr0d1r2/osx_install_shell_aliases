@@ -95,4 +95,15 @@ run_commands \
 run_upgrades \
   git \
   screen \
+  openssl \
+  openssh \
+  rsync \
+  tor \
+  torsocks \
+  dante \
+  youtube-dl \
+  ffmpeg \
+  zsh \
+  wget \
+  aria2 \
 
