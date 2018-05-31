@@ -91,3 +91,8 @@ run_commands \
   sync_github_repositories \
   update_system \
   || return $?
+
+run_upgrades \
+  git \
+  screen \
+

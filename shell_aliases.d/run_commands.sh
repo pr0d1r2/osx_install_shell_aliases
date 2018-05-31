@@ -30,3 +30,11 @@ function run_commands() {
     run_once $run_commands_COMMAND || exit $?
   done
 }
+
+function run_upgrades() {
+  parallel \
+    "screen -d -m brew upgrade {}" \
+    ::: \
+    "$@"
+  return $?
+}
