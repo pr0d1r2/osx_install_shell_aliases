@@ -75,6 +75,7 @@ run_commands \
   install_rbenv_ruby \
   install_dotfiles \
   install_wget \
+  install_axel \
   install_rg \
   install_ag \
   install_rpl \
