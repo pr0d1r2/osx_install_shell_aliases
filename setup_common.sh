@@ -37,6 +37,7 @@ run_commands \
   install_openssh \
   install_rsync \
   install_macvim \
+  install_atom \
   install_janus \
   install_shellcheck \
   install_google_chrome_1password_support \
