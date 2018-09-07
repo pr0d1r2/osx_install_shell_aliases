@@ -23,6 +23,7 @@ run_commands \
   mas_signin \
   install_coreutils \
   install_screen \
+  install_hub \
   install_parallel \
   install_git \
   install_caffeine \
