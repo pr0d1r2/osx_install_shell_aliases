@@ -91,6 +91,7 @@ run_commands \
   install_font_microsoft \
   install_logic_pro_x \
   install_quik \
+  install_audioteka_split \
   autostart_mail \
   autostart_calendar \
   sync_github_repositories \
