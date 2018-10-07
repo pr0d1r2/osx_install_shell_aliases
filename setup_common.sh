@@ -33,6 +33,7 @@ run_commands \
   install_pwgen \
   install_tunnelblick \
   install_spotify \
+  install_kid3 \
   install_airfoil \
   install_omnifocus \
   install_iterm \
