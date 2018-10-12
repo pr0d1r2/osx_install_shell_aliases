@@ -32,6 +32,7 @@ run_commands \
   install_git_secrets \
   install_pwgen \
   install_tunnelblick \
+  install_vox \
   install_spotify \
   install_kid3 \
   install_airfoil \
