@@ -59,6 +59,7 @@ run_commands \
   install_slack \
   install_zoomus \
   install_whatsapp \
+  install_telegram \
   install_skype \
   install_terminal_notifier \
   install_rubbernet \
