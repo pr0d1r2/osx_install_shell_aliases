@@ -1,7 +1,12 @@
 #!/bin/bash
 
-D_R=`cd \`dirname $0\` ; pwd -P`
-source $D_R/shell_aliases.d/run_commands.sh || exit $?
+D_R=$(cd "$(dirname "$0")" && pwd -P)
+# shellcheck disable=SC1090
+source "$D_R/shell_aliases.d/run_commands.sh" || exit $?
+# shellcheck disable=SC1090
+source "$D_R/shell_aliases.d/macos_autostart_app.sh" || exit $?
+# shellcheck disable=SC1090
+source "$D_R/shell_aliases.d/macos_autostart_remove.sh" || exit $?
 
 run_commands \
   set_language_to_english \
