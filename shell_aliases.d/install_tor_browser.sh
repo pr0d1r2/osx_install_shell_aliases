@@ -1,4 +1,4 @@
-function install_torbrowser() {
+function install_tor_browser() {
   brew cask install tor-browser || return $?
   open /Applications/TorBrowser.app || return $?
 }

@@ -56,7 +56,7 @@ run_commands \
   install_tor \
   install_torsocks \
   install_dante \
-  install_torbrowser \
+  install_tor_browser \
   install_youtube_dl \
   install_ffmpeg \
   install_lastpass \
