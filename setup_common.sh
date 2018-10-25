@@ -77,6 +77,7 @@ run_commands \
   install_disk_drill_media_recovery \
   install_mactracker \
   install_steam \
+  install_battle_net \
   install_audio_hijack \
   install_hammerspoon \
   install_hazel \
@@ -120,4 +121,3 @@ run_upgrades \
   zsh \
   wget \
   aria2 \
-
