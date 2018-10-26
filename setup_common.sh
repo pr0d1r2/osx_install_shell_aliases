@@ -11,6 +11,7 @@ source "$D_R/shell_aliases.d/macos_autostart_remove.sh" || exit $?
 run_commands \
   set_language_to_english \
   trackpad_unnatural_scroll_direction \
+  trackpad_disable_swipe_navigation \
   dock_autohide_on \
   dock_only_show_active_apps \
   dock_restart \
