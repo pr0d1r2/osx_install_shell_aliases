@@ -34,6 +34,20 @@ run_commands \
   install_hub \
   install_parallel \
   install_git \
+  install_shell_aliases \
+  install_zsh \
+  install_rbenv \
+  install_rbenv_ruby \
+  install_dotfiles \
+  install_wget \
+  install_axel \
+  install_rg \
+  install_ag \
+  install_rpl \
+  install_htop \
+  install_pstree \
+  install_p7zip \
+  install_aria2 \
   install_caffeine \
   install_commandq \
   install_1password \
@@ -84,21 +98,7 @@ run_commands \
   install_audio_hijack \
   install_hammerspoon \
   install_hazel \
-  install_shell_aliases \
-  install_zsh \
-  install_rbenv \
-  install_rbenv_ruby \
-  install_dotfiles \
-  install_wget \
-  install_axel \
-  install_rg \
-  install_ag \
-  install_rpl \
   install_java \
-  install_htop \
-  install_pstree \
-  install_p7zip \
-  install_aria2 \
   install_libreoffice \
   install_font_microsoft \
   install_logic_pro_x \
