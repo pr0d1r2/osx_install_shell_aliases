@@ -24,6 +24,7 @@ run_commands \
   guest_account_disable \
   ui_server_restart \
   diasble_bluetooth_hid_autoseek \
+  open_photos_to_sync \
   install_homebrew \
   disable_homebrew_analytics \
   install_homebrew_caskroom \
