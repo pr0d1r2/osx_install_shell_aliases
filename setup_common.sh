@@ -23,6 +23,7 @@ run_commands \
   menubar_extras_bluetooth \
   guest_account_disable \
   ui_server_restart \
+  setup_tmp_directory \
   diasble_bluetooth_hid_autoseek \
   open_photos_to_sync \
   install_homebrew \
