@@ -38,10 +38,10 @@ run_commands \
   install_parallel \
   install_git \
   link_projects_from_documents \
-  install_shell_aliases \
-  install_zsh \
   install_rbenv \
   install_rbenv_ruby \
+  install_shell_aliases \
+  install_zsh \
   install_dotfiles \
   install_wget \
   install_axel \
