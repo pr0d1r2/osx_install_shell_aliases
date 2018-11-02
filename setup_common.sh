@@ -21,6 +21,7 @@ run_commands \
   menubar_clock_with_date \
   menubar_show_battery_percent \
   menubar_extras_bluetooth \
+  menubar_time_machine \
   guest_account_disable \
   ui_server_restart \
   setup_tmp_directory \
