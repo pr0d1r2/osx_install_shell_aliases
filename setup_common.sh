@@ -104,6 +104,7 @@ run_commands \
   install_mactracker \
   install_steam \
   install_battle_net \
+  install_gog_galaxy \
   install_audio_hijack \
   install_hammerspoon \
   install_hazel \
