@@ -114,6 +114,7 @@ run_commands \
   install_logic_pro_x \
   install_quik \
   install_audioteka_split \
+  install_imazing \
   autostart_mail \
   autostart_calendar \
   sync_github_repositories \
