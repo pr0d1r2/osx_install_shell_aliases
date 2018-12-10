@@ -50,6 +50,8 @@ run_commands \
   install_dotfiles \
   install_wget \
   install_axel \
+  install_postgres \
+  install_pgtune \
   install_rg \
   install_ag \
   install_rpl \
