@@ -80,6 +80,7 @@ run_commands \
   install_google_chrome_1password_support \
   install_google_chrome \
   install_firefox \
+  install_keybase \
   install_grammarly \
   install_tor \
   install_torsocks \
