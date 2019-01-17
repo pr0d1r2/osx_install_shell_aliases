@@ -92,6 +92,7 @@ run_commands \
   install_alfred \
   install_slack \
   install_zoomus \
+  install_signal \
   install_whatsapp \
   install_telegram \
   install_skype \
