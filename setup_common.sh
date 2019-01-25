@@ -17,6 +17,7 @@ fi
 
 run_commands \
   set_language_to_english \
+  disable_siri \
   trackpad_unnatural_scroll_direction \
   trackpad_disable_swipe_navigation \
   dock_autohide_on \
@@ -29,6 +30,7 @@ run_commands \
   menubar_time_machine \
   guest_account_disable \
   ui_server_restart \
+  preference_cache_restart \
   setup_tmp_directory \
   diasble_bluetooth_hid_autoseek \
   open_photos_to_sync \
