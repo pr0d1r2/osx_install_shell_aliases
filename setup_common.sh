@@ -121,6 +121,7 @@ run_commands \
   install_quik \
   install_audioteka_split \
   install_imazing \
+  install_trello \
   install_wineskin \
   install_docker \
   autostart_mail \
