@@ -122,6 +122,7 @@ run_commands \
   install_audioteka_split \
   install_imazing \
   install_wineskin \
+  install_docker \
   autostart_mail \
   autostart_calendar \
   sync_github_repositories \
