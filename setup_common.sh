@@ -99,6 +99,7 @@ run_commands \
   install_telegram \
   install_skype \
   install_goofy \
+  install_gpg_suite \
   install_terminal_notifier \
   install_rubbernet \
   install_wifi_explorer \
