@@ -84,6 +84,8 @@ run_commands \
   install_firefox \
   install_keybase \
   install_grammarly \
+  install_osxfuse \
+  install_sshfs \
   install_tor \
   install_torsocks \
   install_dante \
