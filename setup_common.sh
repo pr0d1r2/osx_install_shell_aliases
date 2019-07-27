@@ -113,9 +113,6 @@ run_commands \
   install_daisy_disk \
   install_disk_drill_media_recovery \
   install_mactracker \
-  install_steam \
-  install_battle_net \
-  install_gog_galaxy \
   install_audio_hijack \
   install_hammerspoon \
   install_hazel \
@@ -128,7 +125,6 @@ run_commands \
   install_imazing \
   install_trello \
   install_trello_wrk \
-  install_wineskin \
   install_docker \
   autostart_mail \
   autostart_calendar \
