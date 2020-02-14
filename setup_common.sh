@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 D_R=$(cd "$(dirname "$0")" && pwd -P)
 # shellcheck disable=SC1090
