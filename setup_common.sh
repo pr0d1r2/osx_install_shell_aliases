@@ -45,8 +45,6 @@ run_commands \
   install_keybase \
   install_tor_browser \
   install_alfred \
-  install_rubbernet \
-  install_wifi_explorer \
   install_hammerspoon \
   install_java \
   install_logic_pro_x \
