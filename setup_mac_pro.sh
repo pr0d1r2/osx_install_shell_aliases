@@ -6,6 +6,8 @@ source $D_R/shell_aliases.d/run_commands.sh || exit $?
 sh $D_R/setup_development_rails.sh || exit $?
 sh $D_R/setup_media.sh || exit $?
 sh $D_R/setup_office.sh || exit $?
+sh $D_R/setup_media.sh || exit $?
+sh $D_R/setup_network.sh || exit $?
 sh $D_R/setup_music_production.sh || exit $?
 
 run_commands \
