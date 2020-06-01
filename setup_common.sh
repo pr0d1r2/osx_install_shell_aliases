@@ -42,7 +42,6 @@ run_commands \
   install_caffeine \
   install_commandq \
   install_1password \
-  install_git_secrets \
   install_tunnelblick \
   install_keybase \
   install_tor_browser \
