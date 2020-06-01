@@ -43,7 +43,6 @@ run_commands \
   install_commandq \
   install_1password \
   install_keybase \
-  install_tor_browser \
   install_alfred \
   install_hammerspoon \
   install_java \
