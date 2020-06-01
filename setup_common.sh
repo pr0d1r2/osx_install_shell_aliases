@@ -50,7 +50,6 @@ run_commands \
   install_rubbernet \
   install_wifi_explorer \
   install_hammerspoon \
-  install_hazel \
   install_java \
   install_logic_pro_x \
   install_trello \
