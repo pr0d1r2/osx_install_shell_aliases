@@ -42,7 +42,8 @@ run_commands \
   install_google_chrome \
   install_firefox \
   install_keybase \
-  install_terminal_notifier || exit $?
+  install_terminal_notifier \
+  sync_github_repositories || exit $?
 
 run_upgrades \
   git \

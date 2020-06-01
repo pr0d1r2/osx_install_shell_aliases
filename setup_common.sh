@@ -46,6 +46,5 @@ run_commands \
   install_java \
   autostart_mail \
   autostart_calendar \
-  sync_github_repositories \
   update_system \
   || return $?
