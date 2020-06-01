@@ -50,8 +50,6 @@ run_commands \
   install_hammerspoon \
   install_java \
   install_logic_pro_x \
-  install_trello \
-  install_trello_wrk \
   autostart_mail \
   autostart_calendar \
   sync_github_repositories \

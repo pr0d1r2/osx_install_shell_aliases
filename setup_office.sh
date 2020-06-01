@@ -25,4 +25,6 @@ run_commands \
   install_disk_drill_media_recovery \
   install_mactracker \
   install_libreoffice \
+  install_trello \
+  install_trello_wrk \
   install_font_microsoft || exit $?
