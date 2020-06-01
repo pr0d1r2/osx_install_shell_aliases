@@ -38,7 +38,6 @@ run_commands \
   disable_homebrew_analytics \
   install_homebrew_caskroom \
   install_mas \
-  mas_signin \
   install_caffeine \
   install_commandq \
   install_1password \
