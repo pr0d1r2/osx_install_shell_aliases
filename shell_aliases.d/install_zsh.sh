@@ -1,6 +1,6 @@
 function install_zsh() {
   brew install zsh || return $?
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" || return $?
+  test -d "$HOME/.oh-my-zsh" || sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" || return $?
   echo /usr/local/bin/zsh | sudo tee -a /etc/shells || return $?
   chsh -s /usr/local/bin/zsh || return $?
   if [ ! -d "$HOME/.oh-my-zsh/custom/pr0d1r2" ]; then
