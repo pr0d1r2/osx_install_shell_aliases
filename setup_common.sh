@@ -62,7 +62,6 @@ run_commands \
   install_hazel \
   install_java \
   install_logic_pro_x \
-  install_quik \
   install_audioteka_split \
   install_imazing \
   install_trello \
