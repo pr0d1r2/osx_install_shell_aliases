@@ -39,21 +39,12 @@ run_commands \
   install_homebrew_caskroom \
   install_mas \
   mas_signin \
-  install_aria2 \
   install_caffeine \
   install_commandq \
   install_1password \
   install_git_secrets \
   install_tunnelblick \
-  install_google_chrome_1password_support \
-  install_google_chrome \
-  install_firefox \
   install_keybase \
-  install_osxfuse \
-  install_sshfs \
-  install_tor \
-  install_torsocks \
-  install_dante \
   install_tor_browser \
   install_alfred \
   install_rubbernet \
@@ -62,8 +53,6 @@ run_commands \
   install_hazel \
   install_java \
   install_logic_pro_x \
-  install_audioteka_split \
-  install_imazing \
   install_trello \
   install_trello_wrk \
   autostart_mail \
@@ -71,13 +60,3 @@ run_commands \
   sync_github_repositories \
   update_system \
   || return $?
-
-run_upgrades \
-  tor \
-  torsocks \
-  dante \
-  youtube-dl \
-  ffmpeg \
-  zsh \
-  wget \
-  aria2 \

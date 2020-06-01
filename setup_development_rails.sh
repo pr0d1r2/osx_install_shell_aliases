@@ -37,6 +37,9 @@ run_commands \
   install_janus \
   install_shellcheck \
   install_docker \
+  install_google_chrome_1password_support \
+  install_google_chrome \
+  install_firefox \
   install_terminal_notifier || exit $?
 
 run_upgrades \
@@ -44,5 +47,6 @@ run_upgrades \
   screen \
   openssl \
   openssh \
+  zsh \
+  wget \
   rsync || exit $?
-
