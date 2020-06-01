@@ -30,7 +30,6 @@ run_commands \
   install_p7zip \
   install_pwgen \
   install_iterm \
-  install_openssl \
   install_openssh \
   install_rsync \
   install_macvim \
