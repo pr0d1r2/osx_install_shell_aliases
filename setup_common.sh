@@ -44,7 +44,6 @@ run_commands \
   install_alfred \
   install_hammerspoon \
   install_java \
-  install_logic_pro_x \
   autostart_mail \
   autostart_calendar \
   sync_github_repositories \
