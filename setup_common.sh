@@ -45,7 +45,6 @@ run_commands \
   install_parallel \
   install_git \
   install_git_lfs \
-  link_projects_from_documents \
   install_rbenv \
   install_rbenv_ruby \
   install_shell_aliases \
