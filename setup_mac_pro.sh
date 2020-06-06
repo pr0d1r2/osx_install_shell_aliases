@@ -10,6 +10,7 @@ sh $D_R/setup_media.sh || exit $?
 sh $D_R/setup_network.sh || exit $?
 sh $D_R/setup_music_production.sh || exit $?
 sh $D_R/setup_virtualization.sh || exit $?
+sh $D_R/setup_benchmark.sh || exit $?
 
 run_commands \
   install_webcam_settings \
