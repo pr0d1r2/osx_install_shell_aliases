@@ -9,5 +9,4 @@ run_commands \
   install_steam \
   install_battle_net \
   install_gog_galaxy \
-  install_wineskin \
 
