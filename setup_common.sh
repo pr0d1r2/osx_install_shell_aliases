@@ -43,6 +43,8 @@ run_commands \
   install_1password \
   install_alfred \
   install_hammerspoon \
+  install_an_adblocker_for_safari \
+  install_an_tracking_blocker_for_safari \
   install_java \
   autostart_mail \
   autostart_calendar \
