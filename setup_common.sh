@@ -30,6 +30,7 @@ run_commands \
   menubar_time_machine \
   guest_account_disable \
   ui_server_restart \
+  install_content_caching \
   preference_cache_restart \
   setup_tmp_directory \
   diasble_bluetooth_hid_autoseek \
