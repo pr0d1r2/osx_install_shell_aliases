@@ -3,7 +3,7 @@ function install_hammerspoon() {
     git clone git@github.com:pr0d1r2/dothammerspoon.git $HOME/.hammerspoon || return $?
   else
     cd $HOME/.hammerspoon || return $?
-    git pull || return $?
+    git pull --rebase || return $?
   fi
   brew cask install hammerspoon || return $?
   macos_autostart_app Hammerspoon 1
