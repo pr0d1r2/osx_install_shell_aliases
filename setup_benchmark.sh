@@ -8,5 +8,6 @@ sh $D_R/setup_common.sh || exit $?
 run_commands \
   install_black_magic_disk_speed_test \
   install_cinebench \
+  install_luxmark \
 
 exit $?
