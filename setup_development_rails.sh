@@ -6,6 +6,7 @@ source "$D_R/shell_aliases.d/run_commands.sh" || exit $?
 sh $D_R/setup_common.sh || exit $?
 
 run_commands \
+  install_dotfiles \
   install_coreutils \
   install_screen \
   install_hub \
@@ -17,7 +18,6 @@ run_commands \
   install_rbenv_ruby \
   install_shell_aliases \
   install_zsh \
-  install_dotfiles \
   install_wget \
   install_axel \
   install_postgres \
