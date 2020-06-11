@@ -11,6 +11,8 @@ sh $D_R/setup_network.sh || exit $?
 sh $D_R/setup_music_production.sh || exit $?
 sh $D_R/setup_virtualization.sh || exit $?
 sh $D_R/setup_benchmark.sh || exit $?
+sh $D_R/setup_ios_devices.sh || exit $?
+sh $D_R/setup_tor.sh || exit $?
 
 run_commands \
   install_webcam_settings \
