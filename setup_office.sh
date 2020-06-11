@@ -6,7 +6,7 @@ source "$D_R/shell_aliases.d/run_commands.sh" || exit $?
 sh $D_R/setup_common.sh || exit $?
 
 run_commands \
-  install_omnifocus \
+  install_omnifocus2 \
   install_grammarly \
   install_lastpass \
   install_slack \
