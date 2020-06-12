@@ -42,7 +42,8 @@ run_commands \
   install_firefox \
   install_keybase \
   install_terminal_notifier \
-  sync_github_repositories || exit $?
+  sync_github_repositories \
+  fetch_projects_hourly || exit $?
 
 run_upgrades \
   git \
