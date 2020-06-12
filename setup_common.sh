@@ -44,6 +44,7 @@ run_commands \
   install_1password \
   install_alfred \
   install_hammerspoon \
+  install_osx_crond \
   install_an_adblocker_for_safari \
   install_an_tracking_blocker_for_safari \
   install_dns_internet_filter \
