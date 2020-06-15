@@ -43,6 +43,10 @@ run_commands \
   install_keybase \
   install_terminal_notifier \
   sync_github_repositories \
+  setup_brew_bundles \
+  setup_rubies \
+  setup_ruby_bundles \
+  setup_projects \
   fetch_projects_hourly || exit $?
 
 run_upgrades \
