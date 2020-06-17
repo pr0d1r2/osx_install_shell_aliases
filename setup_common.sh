@@ -17,6 +17,7 @@ fi
 
 run_commands \
   set_language_to_english \
+  sleep_after_hour \
   disable_siri \
   trackpad_unnatural_scroll_direction \
   trackpad_disable_swipe_navigation \
