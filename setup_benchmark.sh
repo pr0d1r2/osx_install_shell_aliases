@@ -10,5 +10,6 @@ run_commands \
   install_cinebench \
   install_luxmark \
   install_speedtest_cli \
+  install_archey \
 
 exit $?
