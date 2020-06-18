@@ -36,7 +36,6 @@ run_commands \
   install_atom \
   install_janus \
   install_shellcheck \
-  install_docker \
   install_google_chrome_1password_support \
   install_google_chrome \
   install_firefox \
