@@ -50,6 +50,7 @@ run_commands \
   install_an_tracking_blocker_for_safari \
   install_dns_internet_filter \
   install_java \
+  install_trash \
   autostart_mail \
   autostart_calendar \
   update_system \
