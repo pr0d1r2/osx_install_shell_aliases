@@ -52,6 +52,7 @@ run_commands \
   install_java \
   install_trash \
   install_tree \
+  install_tldr \
   autostart_mail \
   autostart_calendar \
   update_system \
