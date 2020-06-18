@@ -51,6 +51,7 @@ run_commands \
   install_dns_internet_filter \
   install_java \
   install_trash \
+  install_tree \
   autostart_mail \
   autostart_calendar \
   update_system \
