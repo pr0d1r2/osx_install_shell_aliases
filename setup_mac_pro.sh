@@ -4,6 +4,7 @@ D_R=`cd \`dirname $0\` ; pwd -P`
 source $D_R/shell_aliases.d/run_commands.sh || exit $?
 
 sh $D_R/setup_development_python.sh || exit $?
+sh $D_R/setup_development_json.sh || exit $?
 sh $D_R/setup_development_rails.sh || exit $?
 sh $D_R/setup_media.sh || exit $?
 sh $D_R/setup_office.sh || exit $?
