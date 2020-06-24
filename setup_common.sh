@@ -39,7 +39,6 @@ run_commands \
   install_homebrew \
   disable_homebrew_analytics \
   install_homebrew_caskroom \
-  install_steelseries_engine \
   install_mas \
   install_caffeine \
   install_commandq \
