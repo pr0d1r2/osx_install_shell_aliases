@@ -7,5 +7,7 @@ sh $D_R/setup_common.sh || exit $?
 
 run_commands \
   install_vmware_fusion_10 \
+  install_vagrant \
+  install_vagrant_vmware_utility \
 
 exit $?
