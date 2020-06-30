@@ -9,5 +9,6 @@ run_commands \
   install_vmware_fusion_10 \
   install_vagrant \
   install_vagrant_vmware_utility \
+  install_vagrant_vmware_plugin \
 
 exit $?
