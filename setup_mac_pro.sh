@@ -8,6 +8,7 @@ sh $D_R/setup_media.sh || exit $?
 sh $D_R/setup_development_python.sh || exit $?
 sh $D_R/setup_development_json.sh || exit $?
 sh $D_R/setup_development_tmux.sh || exit $?
+sh $D_R/setup_development_web.sh || exit $?
 sh $D_R/setup_development_rails.sh || exit $?
 sh $D_R/setup_development_graphql.sh || exit $?
 sh $D_R/setup_development_docker.sh || exit $?
