@@ -23,6 +23,7 @@ run_commands \
   install_axel \
   install_postgres \
   install_pgtune \
+  install_redis \
   install_rg \
   install_ag \
   install_rpl \
