@@ -10,4 +10,5 @@ function install_zsh() {
     git pull || return $?
   fi
   chmod -R go-rwxs "$HOME/.oh-my-zsh/custom/pr0d1r2" || return $?
+  ln -s "$HOME/.oh-my-zsh/custom/pr0d1r2/zshrc.zsh"  "$HOME/.oh-my-zsh/custom/pr0d1r2.zsh"
 }
