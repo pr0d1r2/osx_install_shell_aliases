@@ -5,6 +5,7 @@ source $D_R/shell_aliases.d/run_commands.sh || exit $?
 
 sh $D_R/setup_media_hi_res.sh || exit $?
 sh $D_R/setup_media.sh || exit $?
+sh $D_R/setup_development_github.sh || exit $?
 sh $D_R/setup_development_python.sh || exit $?
 sh $D_R/setup_development_json.sh || exit $?
 sh $D_R/setup_development_tmux.sh || exit $?
