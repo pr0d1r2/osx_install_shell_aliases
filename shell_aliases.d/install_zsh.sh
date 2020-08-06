@@ -9,4 +9,5 @@ function install_zsh() {
     cd  "$HOME/.oh-my-zsh/custom/pr0d1r2" || return $?
     git pull || return $?
   fi
+  chmod -R go-rwxs "$HOME/.oh-my-zsh/custom/pr0d1r2" || return $?
 }
