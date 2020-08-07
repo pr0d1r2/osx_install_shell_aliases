@@ -10,12 +10,12 @@ function install_zsh() {
     git pull || return $?
   fi
   chmod -R go-rwxs "$HOME/.oh-my-zsh/custom/pr0d1r2" || return $?
-  ln -s "$HOME/.oh-my-zsh/custom/pr0d1r2/zshrc.zsh"  "$HOME/.oh-my-zsh/custom/pr0d1r2.zsh"
-  if [ ! -d "$HOME/.oh-my-zsh/custom/themes/spaceship-prompt" ]; then
-    git clone https://github.com/denysdovhan/spaceship-prompt.git "$HOME/.oh-my-zsh/custom/themes/spaceship-prompt" || return $?
+  ln -s "$HOME/.oh-my-zsh/custom/pr0d1r2/zshrc.zsh"  "$HOME/.oh-my-zsh/custom/pr0d1r2.zsh" || return $?
+  if [ ! -d "$HOME/.oh-my-zsh/spaceship-prompt" ]; then
+    git clone https://github.com/denysdovhan/spaceship-prompt.git "$HOME/.oh-my-zsh/themes/spaceship-prompt" || return $?
   else
-    cd "$HOME/.oh-my-zsh/custom/themes/spaceship-prompt" || return $?
+    cd "$HOME/.oh-my-zsh/themes/spaceship-prompt" || return $?
     git pull || return $?
   fi
-  chmod -R go-rwxs "$HOME/.oh-my-zsh/custom/themes/spaceship-prompt" || return $?
+  chmod -R go-rwxs "$HOME/.oh-my-zsh/themes/spaceship-prompt" || return $?
 }
