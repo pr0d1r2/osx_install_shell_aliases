@@ -7,6 +7,7 @@ source "$D_R/shell_aliases.d/RBENV_RUBY_VERSION_GLOBAL.sh" || exit $?
 sh $D_R/setup_common.sh || exit $?
 
 run_commands \
+  install_direnv \
   install_dotfiles \
   install_coreutils \
   install_screen \
