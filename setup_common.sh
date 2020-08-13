@@ -54,6 +54,7 @@ run_commands \
   install_tree \
   install_ncdu \
   install_tldr \
+  install_rename \
   autostart_mail \
   autostart_calendar \
   update_system \
