@@ -22,6 +22,7 @@ sh $D_R/setup_virtualization.sh || exit $?
 sh $D_R/setup_benchmark.sh || exit $?
 sh $D_R/setup_ios_devices.sh || exit $?
 sh $D_R/setup_tor.sh || exit $?
+sh $D_R/setup_projects.sh || exit $?
 
 run_commands \
   install_webcam_settings \

@@ -49,9 +49,7 @@ run_commands \
   setup_rubies \
   enforce_ruby_local_versions \
   setup_ruby_local_versions \
-  setup_ruby_bundles \
-  setup_projects \
-  fetch_projects_hourly || exit $?
+  setup_ruby_bundles || exit $?
 
 run_upgrades \
   git \

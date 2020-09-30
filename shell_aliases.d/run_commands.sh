@@ -38,3 +38,15 @@ function run_upgrades() {
     "$@"
   return $?
 }
+
+# shellcheck disable=SC1090
+source "$D_R/shell_aliases.d/macos_autostart_app.sh" || exit $?
+# shellcheck disable=SC1090
+source "$D_R/shell_aliases.d/macos_autostart_remove.sh" || exit $?
+# shellcheck disable=SC1090
+source "$D_R/shell_aliases.d/macos_version.sh" || exit $?
+
+if [ -d "$HOME/.rbenv/bin" ]; then
+  export PATH="$HOME/.rbenv/bin:$PATH"
+  eval "$(rbenv init -)"
+fi
