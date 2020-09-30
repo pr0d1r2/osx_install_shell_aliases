@@ -16,7 +16,6 @@ run_commands \
   install_telegram \
   install_skype \
   install_goofy \
-  install_gpg_suite \
   install_pages \
   install_numbers \
   install_keynote \
