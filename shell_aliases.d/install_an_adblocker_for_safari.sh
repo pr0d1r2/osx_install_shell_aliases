@@ -1,7 +1,11 @@
 function install_an_adblocker_for_safari() {
   if [ "$(defaults read loginwindow SystemVersionStampAsString | cut -f 2 -d .)" -ge 15 ]; then
     # "1Blocker for Safari" is the strongest according to the 'You may want to check' (2) link:
-    mas install 1107421413 || return $?
+    # mas install 1107421413 || return $?
+    echo "Apple crippled auto installation of adblockers!"
+    echo
+    echo "Please use uBlock installed manually."
+    echo
   else
     echo "Apple disabled adBlockers on older systems!"
     echo "It will not install due to 'The current version requires OS X 10.15 or later, but you can download the last compatible version.'"
