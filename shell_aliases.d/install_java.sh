@@ -1,3 +1,4 @@
 function install_java() {
-  brew cask install java || return $?
+  brew tap adoptopenjdk/openjdk || return $?
+  brew cask install adoptopenjdk || return $?
 }
