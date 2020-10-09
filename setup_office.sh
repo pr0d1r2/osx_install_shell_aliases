@@ -15,7 +15,7 @@ run_commands \
   install_whatsapp \
   install_telegram \
   install_skype \
-  install_goofy \
+  install_messenger \
   install_pages \
   install_numbers \
   install_keynote \
