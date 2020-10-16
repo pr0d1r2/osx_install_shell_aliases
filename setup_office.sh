@@ -8,6 +8,7 @@ sh $D_R/setup_common.sh || exit $?
 run_commands \
   install_omnifocus2 \
   install_grammarly \
+  install_grammarly_for_safari \
   install_lastpass \
   install_slack \
   install_zoomus \
