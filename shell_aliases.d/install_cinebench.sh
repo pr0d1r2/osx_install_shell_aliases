@@ -1,4 +1,4 @@
 function install_cinebench() {
-  brew cask install cinebench || return $?
+  brew install --cask cinebench || return $?
   open /Applications/Cinebench.app || return $?
 }

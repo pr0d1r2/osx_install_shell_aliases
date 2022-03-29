@@ -5,7 +5,7 @@ function install_hammerspoon() {
     cd "$HOME/.hammerspoon" && git pull --rebase || return $?
   fi
   cd "$HOME/.hammerspoon" && git submodule update --init --recursive || return $?
-  brew cask install hammerspoon || return $?
+  brew install --cask hammerspoon || return $?
   macos_autostart_app Hammerspoon 1
   open /Applications/Hammerspoon.app || return $?
 }

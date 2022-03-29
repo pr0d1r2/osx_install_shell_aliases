@@ -1,4 +1,4 @@
 function install_tunnelblick() {
-  brew cask install tunnelblick || return $?
+  brew install --cask tunnelblick || return $?
   open /Applications/Tunnelblick.app || return $?
 }

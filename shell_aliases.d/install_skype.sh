@@ -1,4 +1,4 @@
 function install_skype() {
-  brew cask install skype || return $?
+  brew install --cask skype || return $?
   open /Applications/Skype.app || return $?
 }

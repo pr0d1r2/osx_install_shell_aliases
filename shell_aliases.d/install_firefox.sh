@@ -1,3 +1,3 @@
 function install_firefox() {
-  brew cask install firefox || return $?
+  brew install --cask firefox || return $?
 }

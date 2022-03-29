@@ -1,3 +1,3 @@
 function install_caffeine() {
-  brew cask install caffeine || return $?
+  brew install --cask caffeine || return $?
 }

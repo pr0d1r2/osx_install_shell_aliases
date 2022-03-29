@@ -1,4 +1,4 @@
 function install_iterm() {
-  brew cask install iterm2 || return $?
+  brew install --cask iterm2 || return $?
   open /Applications/iTerm.app || return $?
 }

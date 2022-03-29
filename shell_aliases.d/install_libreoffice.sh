@@ -1,3 +1,3 @@
 function install_libreoffice() {
-  brew cask install libreoffice || return $?
+  brew install --cask libreoffice || return $?
 }

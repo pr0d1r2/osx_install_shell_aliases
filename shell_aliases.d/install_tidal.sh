@@ -1,4 +1,4 @@
 function install_tidal() {
-  brew cask install tidal || return $?
+  brew install --cask tidal || return $?
   open /Applications/TIDAL.app || return $?
 }

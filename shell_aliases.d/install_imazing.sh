@@ -1,4 +1,4 @@
 function install_imazing() {
-  brew cask install imazing || return $?
+  brew install --cask imazing || return $?
   open /Applications/iMazing.app || return $?
 }

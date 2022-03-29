@@ -1,4 +1,4 @@
 function install_telegram() {
-  brew cask install telegram-desktop || return $?
+  brew install --cask telegram-desktop || return $?
   open '/Applications/Telegram Desktop.app' || return $?
 }

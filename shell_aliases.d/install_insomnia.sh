@@ -1,4 +1,4 @@
 function install_insomnia() {
-  brew cask install insomnia || return $?
+  brew install --cask insomnia || return $?
   open /Applications/Insomnia.app || return $?
 }

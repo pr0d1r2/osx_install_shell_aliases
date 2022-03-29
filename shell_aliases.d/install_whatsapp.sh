@@ -1,4 +1,4 @@
 function install_whatsapp() {
-  brew cask install whatsapp || return $?
+  brew install --cask whatsapp || return $?
   open /Applications/WhatsApp.app || return $?
 }

@@ -1,3 +1,3 @@
 function install_vagrant_vmware_utility() {
-  brew cask install vagrant-vmware-utility || return $?
+  brew install --cask vagrant-vmware-utility || return $?
 }

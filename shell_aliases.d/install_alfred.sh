@@ -1,4 +1,4 @@
 function install_alfred() {
-  brew cask install alfred || return $?
+  brew install --cask alfred || return $?
   open /Applications/Alfred\ 4.app || return $?
 }

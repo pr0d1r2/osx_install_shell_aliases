@@ -1,4 +1,4 @@
 function install_spotify() {
-  brew cask install spotify || return $?
+  brew install --cask spotify || return $?
   open /Applications/Spotify.app || return $?
 }

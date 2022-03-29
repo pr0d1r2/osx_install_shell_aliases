@@ -1,3 +1,3 @@
 function install_atom() {
-  brew cask install atom || return $?
+  brew install --cask atom || return $?
 }

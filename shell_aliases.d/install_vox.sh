@@ -1,3 +1,3 @@
 function install_vox() {
-  brew cask install vox vox-preferences-pane || return $?
+  brew install --cask vox vox-preferences-pane || return $?
 }

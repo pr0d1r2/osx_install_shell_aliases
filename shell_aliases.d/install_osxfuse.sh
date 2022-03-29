@@ -1,3 +1,3 @@
 function install_osxfuse() {
-  brew cask install osxfuse || return $?
+  brew install --cask osxfuse || return $?
 }
